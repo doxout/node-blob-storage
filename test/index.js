@@ -13,6 +13,13 @@ function getFilesizeInBytes(filename) {
 }
 
 function runTests(t, storage) {
+    t.test('test not existing file', function (t) {
+        storage.get('file123434.txt', function (err) {
+            t.ok(err, "should NOT get file from blob storage." + err);
+            t.end();
+        });
+    });
+
     t.test('testing ' + storage.type, function (t) {
         var file = fs.createReadStream(__dirname + "/index.js");
         file.length = getFilesizeInBytes(__dirname + "/index.js");
