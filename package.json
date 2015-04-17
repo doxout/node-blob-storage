@@ -1,29 +1,39 @@
 {
-    "name": "blob-storage",
-    "version": "0.1.0",
-    "description": "Blob storage provider",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:doxout/node-blob-storage.git"
-    },
-    "keywords": [
-        "blob",
-        "storage"
-    ],
-    "author": "Rade Despodovski",
-    "license": "MIT",
-    "dependencies": {
-        "tap": "^0.7.1",
-        "uuid": "^2.0.1",
-        "bl": "^0.7.0",
-        "through2": "^0.4.1",
-        "stream-browserify": "^0.1.3",
-        "form-data": "^0.2.0",
-        "request": "^2.55.0",
-        "aws-sdk": "^2.1.24"
-    }
+  "name": "blob-storage",
+  "version": "0.1.0",
+  "description": "Blob storage provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:doxout/node-blob-storage.git"
+  },
+  "keywords": [
+    "blob",
+    "storage"
+  ],
+  "author": "Rade Despodovski",
+  "license": "MIT",
+  "dependencies": {
+    "tap": "^0.7.1",
+    "uuid": "^2.0.1",
+    "bl": "^0.7.0",
+    "through2": "^0.4.1",
+    "stream-browserify": "^0.1.3",
+    "form-data": "^0.2.0",
+    "request": "^2.55.0",
+    "aws-sdk": "^2.1.24"
+  },
+  "bugs": {
+    "url": "https://github.com/doxout/node-blob-storage/issues"
+  },
+  "homepage": "https://github.com/doxout/node-blob-storage",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "tap": "^0.7.1"
+  }
 }
