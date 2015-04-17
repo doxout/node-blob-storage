@@ -17,10 +17,13 @@
     "author": "DoxOut",
     "license": "MIT",
     "dependencies": {
-        "tap": "~0.4.3",
-        "uuid": "~1.4.1",
+        "tap": "^0.7.1",
+        "uuid": "^2.0.1",
         "bl": "^0.7.0",
         "through2": "^0.4.1",
-        "stream-browserify": "^0.1.3"
+        "stream-browserify": "^0.1.3",
+        "form-data": "^0.2.0",
+        "request": "^2.55.0",
+        "aws-sdk": "^2.1.24"
     }
 }
