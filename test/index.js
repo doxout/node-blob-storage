@@ -17,7 +17,6 @@ function runTests(t, storage) {
         var file = fs.createReadStream(__dirname + "/index.js");
         file.length = getFilesizeInBytes(__dirname + "/index.js");
         storage.put(file, function (err, key) {
-            console.log('err', err);
             t.notOk(err, "should put new file in blob storage. " + err);
             t.ok(key, "should generate non-null key. " + key);
             storage.get(key, function (err, stream) {
@@ -53,7 +52,7 @@ test("blob storage", function (t) {
     var storageList = [
         blobStorage({
             accountType: "s3",
-            bucket: "doxbee",
+            bucket: "...",
             accessKeyId: '...',
             secretAccessKey: '...'
         }),
