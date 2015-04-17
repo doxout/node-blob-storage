@@ -14,7 +14,7 @@
         "blob",
         "storage"
     ],
-    "author": "DoxOut",
+    "author": "Rade Despodovski",
     "license": "MIT",
     "dependencies": {
         "tap": "^0.7.1",
