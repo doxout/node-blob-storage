@@ -1,0 +1,26 @@
+{
+    "name": "blob-storage",
+    "version": "0.1.0",
+    "description": "Blob storage provider",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:doxout/node-blob-storage.git"
+    },
+    "keywords": [
+        "blob",
+        "storage"
+    ],
+    "author": "DoxOut",
+    "license": "MIT",
+    "dependencies": {
+        "tap": "~0.4.3",
+        "uuid": "~1.4.1",
+        "bl": "^0.7.0",
+        "through2": "^0.4.1",
+        "stream-browserify": "^0.1.3"
+    }
+}
