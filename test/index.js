@@ -60,6 +60,7 @@ test("blob storage", function (t) {
         blobStorage({
             accountType: "s3",
             bucket: "...",
+            endpoint: '...',
             accessKeyId: '...',
             secretAccessKey: '...'
         }),
