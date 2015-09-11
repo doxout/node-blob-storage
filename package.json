@@ -1,6 +1,6 @@
 {
   "name": "blob-storage",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Blob storage provider",
   "main": "index.js",
   "scripts": {
